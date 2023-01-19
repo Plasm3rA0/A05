@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    height: 70vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 1.1rem;
+    -webkit-border-radius: 1.1rem;
+    -moz-border-radius: 1.1rem;
+    -ms-border-radius: 1.1rem;
+    -o-border-radius: 1.1rem;
+    width: 50%;
+    margin: 3%;
+    box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
+    padding: 3%;
+}
+.card h2{
+    font-size: 2rem;
+}
+.card p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.card .divisor{
+    height: 3px;
+    background-color: grey;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 40%;
+    margin: 2% 0;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.articleWrapper:nth-child(1){
+    margin-top: 80vh;
+}
+img.tradingImage1{
+    margin-top: 10px;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    max-width: 30vw;
+}
+.articleWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+details > summary{
+    list-style-type: disc;
+    cursor: pointer;
+}
+details[open] > summary{
+    list-style-type: disc;
+    margin-bottom: .5rem;
+}
