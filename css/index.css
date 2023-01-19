@@ -3,12 +3,13 @@
     margin: 0;
 }
 section{
-    height: 70vh;
-    width: 85%;
+    height: 130vh;
     margin: auto;
+    margin-bottom: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .card{
@@ -19,6 +20,7 @@ section{
     -o-border-radius: 1.1rem;
     width: 50%;
     margin: 3%;
+    margin-top: 0;
     box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.5);
     padding: 3%;
 }
@@ -46,7 +48,7 @@ section{
     height: 50%;
 }
 .articleWrapper:nth-child(1){
-    margin-top: 80vh;
+    margin-top: 25vh;
 }
 img.tradingImage1{
     margin-top: 10px;
