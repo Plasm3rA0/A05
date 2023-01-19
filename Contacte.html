@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/quiSom.css" />
+    <link rel="stylesheet" href="css/contacte.css" />
     <title>HECA - Qui Som</title>
   </head>
   <body>
@@ -20,12 +20,25 @@
       </nav>
     </header>
     <section>
-        <article>
-            <form>
-              <label for="Name">Name</label>
-              <input type="text" id="Name">
-            </form>
-        </article>
+      <article>
+        <form method="get">
+          <div class="formLeft">
+            <label for="Name">Nom</label>
+            <input type="text" id="Name" />
+            <label for="Surname">Cognoms</label>
+            <input type="text" id="Surname" />
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </div>
+          <div class="formRight">
+            <label for="Titulo">Asumpte</label>
+            <input type="text" id="Titulo" />
+            <label for="Content">Descripció</label>
+            <textarea name="Content" id="Content" cols="30" rows="2"></textarea>
+            <button>Submit</button>
+          </div>
+        </form>
+      </article>
     </section>
     <footer>
       <div class="footer_left">

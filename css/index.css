@@ -1,5 +1,5 @@
 section{
-    height: 130vh;
+    height: 140vh;
     margin: auto;
     margin-bottom: 2%;
     display: flex;
@@ -30,10 +30,10 @@ section{
 .imageContainer{
     display: flex;
     justify-content: center;
-    height: 50%;
+    height: 58%;
 }
 .articleWrapper:nth-child(1){
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 img.tradingImage1{
     margin-top: 10px;
@@ -74,4 +74,7 @@ tr td{
 
 table{
     border: none;
+}
+iframe{
+    margin-top: 2rem;
 }
