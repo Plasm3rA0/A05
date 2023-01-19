@@ -1,0 +1,29 @@
+section {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article:nth-child(1) {
+  margin-top: 22vh;
+}
+
+article{
+    border-radius: 1rem;
+    width: 80%;
+    background-color: #ccc;
+    padding: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: dotted 2px #585;
+}
+
+article:nth-child(1) ul{
+    margin-left: 1rem;
+}
+article:nth-child(1) ul li{
+    list-style-type: square;
+}
