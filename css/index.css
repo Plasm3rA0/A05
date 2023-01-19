@@ -70,3 +70,21 @@ details[open] > summary{
     list-style-type: disc;
     margin-bottom: .5rem;
 }
+
+table tr th{
+    background-color: #333;
+    color: white;
+    padding: 1%;
+}
+
+tr:nth-child(2n){
+    background-color: #ccc;
+}
+
+tr td{
+    padding: 1.5%;
+}
+
+table{
+    border: none;
+}
